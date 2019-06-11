@@ -1,3 +1,5 @@
+package singleton
+
 /**
  * 枚举单例
  */

@@ -1,3 +1,5 @@
+package singleton
+
 import java.io.Serializable
 
 /**
@@ -22,7 +24,7 @@ class KLazilySingleton private constructor() : Serializable {
     }
 
     private fun readResolve(): Any {
-        return KLazilySingleton.getInstance()
+        return getInstance()
     }
 
 }

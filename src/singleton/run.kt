@@ -1,3 +1,5 @@
+package singleton
+
 fun main() {
     KSingleton.doSomeThing()
     KLazilySingleton.getInstance().doSomeThing()
