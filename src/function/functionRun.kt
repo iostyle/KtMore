@@ -15,8 +15,8 @@ fun testRun() {
      * 返回作用域内最后一个对象
      */
     mood = run {
-        val hasMoney = true
-        if (hasMoney) "happy" else "sad"
+        val flag = true
+        if (flag) "happy" else "sad"
     }
     println(mood)
 }
