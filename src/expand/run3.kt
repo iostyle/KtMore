@@ -18,3 +18,6 @@ var String.s: Int
     set(value) {
         println(this.plus(value))
     }
+
+val List<Any>.lastIndex: Int
+    get() = size - 1
