@@ -13,4 +13,6 @@ fun main() {
 //    println(q3().lengthOfLongestSubstring("aab"))
 //    println(q3().lengthOfLongestSubstring("cdd"))
 //    println(q3().lengthOfLongestSubstring("pwwkew"))
+
+    print(Palindrome.isNodeListPalindrome(12321))
 }
