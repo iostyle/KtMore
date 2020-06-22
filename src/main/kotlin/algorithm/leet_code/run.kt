@@ -1,4 +1,4 @@
-package leet_code
+package algorithm.leet_code
 
 fun main() {
 //    val intArray = intArrayOf(8, 2, 5, 6, 7)

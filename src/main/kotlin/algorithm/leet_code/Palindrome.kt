@@ -1,4 +1,4 @@
-package leet_code
+package algorithm.leet_code
 
 object Palindrome {
     fun isPalindrome(x: Int): Boolean {

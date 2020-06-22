@@ -1,4 +1,4 @@
-package egg
+package algorithm.question.egg
 
 class Egg {
 
