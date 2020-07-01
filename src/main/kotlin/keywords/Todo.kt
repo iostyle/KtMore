@@ -6,9 +6,9 @@ package keywords
  * sealed
  * operator
  *
- * internal
- * inner
+ * internal 限制module
+ * inner 修饰内部类需要实例化外部类后才能调用
  * inline noinline crossinline
- * infix
+ * infix DSL 单参数拓展函数
  * by
  */
