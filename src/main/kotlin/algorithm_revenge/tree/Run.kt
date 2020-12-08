@@ -1,15 +1,19 @@
 package algorithm_revenge.tree
 
+import algorithm_revenge.tree.leetcode.LeetCode_105
 import algorithm_revenge.tree.leetcode.LeetCode_124
 
 fun main() {
-    val run = LeetCode_124()
+//    val run = LeetCode_124()
+//
+//    val node = getTestTreeNodes()
+//
+//    run.maxPathSum(node)
+//
+//    println(run.answer.toString())
 
-    val node = getTestTreeNodes()
-
-    run.maxPathSum(node)
-
-    println(run.answer.toString())
+    val run = LeetCode_105()
+    run.buildTree(intArrayOf(3, 9, 20, 15, 7), intArrayOf(9, 3, 15, 20, 7))
 }
 
 fun getTestTreeNodes(): TreeNode {
