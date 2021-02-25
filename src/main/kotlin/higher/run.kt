@@ -4,5 +4,7 @@ fun main() {
 //    testForEach()
 //    testMap()
 //    testFlatMap()
-    testReduce()
+//    testReduce()
+
+    testShuffled()
 }
